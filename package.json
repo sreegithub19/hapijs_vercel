@@ -1,0 +1,22 @@
+{
+  "name": "hapijs_vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server_.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreegithub19/hapijs_vercel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreegithub19/hapijs_vercel/issues"
+  },
+  "homepage": "https://github.com/sreegithub19/hapijs_vercel#readme",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
