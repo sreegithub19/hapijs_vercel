@@ -31,7 +31,7 @@ server.route({
         <li><a href='/tic_tac_toe'>Tic-tac-toe</a></li>
         <li><a href='/clock'>Analogue clock</a></li>
         <li><a href='/hangman'>Hangman</a></li>
-        <li><a href='/puzzles'>Estonian puzzles</a></li>
+        <li><a href='/puzzles'>Puzzles</a></li>
         <li><a href='/sudoku'>Sudoku</a></li>
         <li><a href='/virtual_keyboard'>Virtual keyboard</a></li>
 	<li><a href='/solitaire'>Solitaire</a></li>
@@ -2637,7 +2637,6 @@ a:visited {
 }
 
 @media (min-height: 425px) {
-  /** Youtube logo by https://codepen.io/alvaromontoro */
   #youtube {
     z-index: 2;
     display: block;
@@ -2721,20 +2720,7 @@ a:visited {
     </div>
   </div>
 </div>
-<a id="youtube" href="https://youtu.be/bTk6dcAckuI" target="_blank">
-  <span>See how this game was made</span>
-</a>
-<div id="youtube-card">
-  How to simulate ball movement in a maze with JavaScript
-</div>
 <script>
-    /*
-
-If you want to know how this game works, you can find a source code walkthrough video here: https://youtu.be/bTk6dcAckuI
-
-Follow me on twitter for more: https://twitter.com/HunorBorbely
-
-*/
 
 Math.minmax = (value, limit) => {
   return Math.max(Math.min(value, limit), -limit);
@@ -3393,10 +3379,6 @@ function main(timestamp) {
       noteElement.innerHTML = \`Congrats, you did it!
         \${!hardMode ? "<p>Press H for hard mode</p>" : ""}
         <p>
-          Follow me
-          <a href="https://twitter.com/HunorBorbely" , target="_blank"
-            >@HunorBorbely</a
-          >
         </p>\`;
       noteElement.style.opacity = 1;
       gameInProgress = false;
